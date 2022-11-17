@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Datos</legend>
+      <label for="Name">Nombre
+        <input type="text" id="Name" placeholder="Ingresa tu nombre" required>
+      </label>
+      <label for="Campo">
+        <input type="text" value="Apellido ya informado" readonly> <!-- Disabled -->
+      </label>
+      <label for="Contraseña">Contraseña
+        <input type="password" minlength="5" maxlength="15" required> <!-- Min max para numeros -->
+      </label>
+      <button>Enviar formulario</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>

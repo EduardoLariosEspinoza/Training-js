@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .Parrafo-1 {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Dar estilo con css-->
+  <p class="Parrafo-1">Class</p>
+  <p id="parrafo">id</p>
+  <p title="Muestra la informacion">Title</p>
+
+  <!--Permite guardar un valor en la etiqueta HTML-->
+  <p id="Parrafo2" data-ejemplo="Datos">Data</p>
+  <script>
+    const i = document.getElementById('parrafo')
+    const i2 = document.getElementById('Parrafo2')
+    console.log(i.textContent)
+    console.log(i2.dataset.ejemplo)
+  </script>
+</body>
+
+</html>

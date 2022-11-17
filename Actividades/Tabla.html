@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Tabla.css">
+</head>
+
+<body>
+  <h1>Tabla</h1>
+  <table>
+    <caption>Horario</caption>
+    <colgroup>
+      <col span="5">
+      <col>
+    </colgroup>
+    <thead>
+      <tr>
+        <th id="Hora">Hora</th>
+        <th id="L">L</th>
+        <th id="M">M</th>
+        <th id="X">X</th>
+        <th id="J">J</th>
+        <th id="V">V</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>8:30 - 9:30</td>
+        <td>Matematicas</td>
+        <td>Español</td>
+        <td>Matematicas</td>
+        <td rowspan="2">Biologia</td>
+        <td>Español</td>
+      </tr>
+      <tr>
+        <td>9:30 - 10:30</td>
+        <td>Biologia</td>
+        <td>Matematicas</td>
+        <td>Español</td>
+        <td>Matematicas</td>
+      </tr>
+      <tr>
+        <td>10:30 - 11:00</td>
+        <td colspan="5">
+          Receso
+        </td>
+      </tr>
+      <tr>
+        <td>11:00 - 12:00</td>
+        <td>Español</td>
+        <td>Español</td>
+        <td rowspan="2">Tecnologia</td>
+        <td>Tecnologia</td>
+        <td>Matematicas</td>
+      </tr>
+      <tr>
+        <td>12:00 - 1:00</td>
+        <td>Ed. Fisica</td>
+        <td>Fisica</td>
+        <td>Fisica</td>
+        <td>Fisica</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">Numero de clases</td>
+        <td>3</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
